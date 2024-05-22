@@ -28,7 +28,7 @@ def getdata():
       Hum = round((sensor_data_json['weather']['BME280']['Hum']),2)
       Tamb = round((sensor_data_json['weather']['MLX90614']['T amb']),2)
       Tobj = round((sensor_data_json['weather']['MLX90614']['T obj']),2)
-      Lux = round((sensor_data_json['weather']['TSL2591']['Lux']),5)
+      Lux = round((sensor_data_json['weather']['TSL2591']['Lux']),3)
       IR = round((sensor_data_json['weather']['TSL2591']['IR']),2)
 
       # Berechnung - Taupunkt 
